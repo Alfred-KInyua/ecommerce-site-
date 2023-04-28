@@ -8,7 +8,6 @@ import { Navbar } from './components/Navbar';
 function App() {
   return (
     <>
-      {' '}
       <Navbar />
       <Container className="mb-24">
         <Routes>
