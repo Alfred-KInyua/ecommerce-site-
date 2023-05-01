@@ -4,9 +4,24 @@ import { Button } from 'react-bootstrap';
 import cart from './../assets/cart.svg';
 
 export function Navbar() {
+  const s = { style: { width: '3rem', height: '3rem', position: 'relative' } };
+  const small = {
+    style: {
+      width: '1.5rem',
+      height: '1.5rem',
+      color: 'white',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      position: 'absolute',
+      bottom: 0,
+      right: 0,
+      transform: 'translate(25%,25%)',
+    },
+  };
   return (
     <>
-      <NavbarBs className="bg-white shadow-sm mb-3">
+      <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
         <Container className="me-auto">
           <Nav>
             <Nav.Link to={'./'} as={NavLink}>
@@ -20,11 +35,14 @@ export function Navbar() {
             </Nav.Link>
           </Nav>
           <Button
-            style={{ width: '3rem', height: '3rem' }}
+            style={s.style}
+            className="rounded-circle btn-style"
             variant="outline-primary"
-            className="rounded-circle"
           >
             <img src={cart} />
+            <div style={small.style} className="rounded-circle bg-danger">
+              3
+            </div>
           </Button>
         </Container>
       </NavbarBs>
