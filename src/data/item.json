@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Mangoes",
+    "price": 10.99,
+    "imgUrl": "./images/mangoes.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Blueberries",
+    "price": 12.0,
+    "imgUrl": "./images/blueberries.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Watermelons",
+    "price": 1.05,
+    "imgUrl": "./images/melons.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Apples",
+    "price": 2.55,
+    "imgUrl": "./images/Apples.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Corn",
+    "price": 2.55,
+    "imgUrl": "./images/corn.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Tomatoes",
+    "price": 2.55,
+    "imgUrl": "./images/tomatoes.jpg"
+  }
+]
