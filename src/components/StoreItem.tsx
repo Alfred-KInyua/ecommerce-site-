@@ -8,7 +8,7 @@ type StoreItemProps = {
 };
 
 export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
-  const quantity = 1;
+  const quantity = 0;
   return (
     <Card className="h-100">
       <Card.Img
@@ -37,12 +37,14 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
               >
                 <Button>+ </Button>
                 <div>
-                  <span>{quantity} cart </span>
+                  <span className="fs-3">{quantity} in cart </span>
                 </div>
                 <Button>- </Button>
               </div>
               <div className="d-flex justify-content-center align-items-center">
-                <Button>- Remove</Button>
+                <Button className=" fs-6 bg-danger" style={{ border: 'unset' }}>
+                  Remove
+                </Button>
               </div>
             </>
           )}
