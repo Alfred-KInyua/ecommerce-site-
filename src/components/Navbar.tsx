@@ -2,8 +2,10 @@ import { Container, Nav, Navbar as NavbarBs } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import cart from './../assets/cart.svg';
+import { useShoppingCart } from '../context/ShoppingCartContext';
 
 export function Navbar() {
+  const { openCart, cartQuantity } = useShoppingCart();
   const s = { style: { width: '3rem', height: '3rem', position: 'relative' } };
   const small = {
     style: {
@@ -34,16 +36,19 @@ export function Navbar() {
               Store
             </Nav.Link>
           </Nav>
-          <Button
-            style={s.style}
-            className="rounded-circle btn-style"
-            variant="outline-primary"
-          >
-            <img src={cart} />
-            <div style={small.style} className="rounded-circle bg-danger">
-              3
-            </div>
-          </Button>
+          {cartQuantity > 0 && (
+            <Button
+              onClick={openCart}
+              style={s.style}
+              className="rounded-circle btn-style"
+              variant="outline-primary"
+            >
+              <img src={cart} />
+              <div style={small.style} className="rounded-circle bg-danger">
+                {cartQuantity}
+              </div>
+            </Button>
+          )}
         </Container>
       </NavbarBs>
     </>
