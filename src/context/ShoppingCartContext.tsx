@@ -1,5 +1,4 @@
 import { ReactNode, createContext, useContext, useState } from 'react';
-const ShoppingCartContext = createContext({} as ShoppingCartContext);
 
 type ShoppingCartProviderProps = {
   children: ReactNode;
@@ -15,8 +14,9 @@ type cartItem = {
   id: number;
   quantity: number;
 };
+const ShoppingCartContext = createContext({} as ShoppingCartContext);
 
-export function useShoppingCartContext() {
+export function useShoppingCart() {
   return useContext(ShoppingCartContext);
 }
 
