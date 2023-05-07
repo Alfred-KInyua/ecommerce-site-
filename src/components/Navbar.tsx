@@ -6,21 +6,6 @@ import { useShoppingCart } from '../context/ShoppingCartContext';
 
 export function Navbar() {
   const { openCart, cartQuantity } = useShoppingCart();
-  const s = { style: { width: '3rem', height: '3rem', position: 'relative' } };
-  const small = {
-    style: {
-      width: '1.5rem',
-      height: '1.5rem',
-      color: 'white',
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      position: 'absolute',
-      bottom: 0,
-      right: 0,
-      transform: 'translate(25%,25%)',
-    },
-  };
   return (
     <>
       <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
@@ -39,12 +24,26 @@ export function Navbar() {
           {cartQuantity > 0 && (
             <Button
               onClick={openCart}
-              style={s.style}
+              style={{ width: '3rem', height: '3rem', position: 'relative' }}
               className="rounded-circle btn-style"
               variant="outline-primary"
             >
               <img src={cart} />
-              <div style={small.style} className="rounded-circle bg-danger">
+              <div
+                style={{
+                  width: '1.5rem',
+                  height: '1.5rem',
+                  color: 'white',
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  position: 'absolute',
+                  bottom: 0,
+                  right: 0,
+                  transform: 'translate(25%,25%)',
+                }}
+                className="rounded-circle bg-danger"
+              >
                 {cartQuantity}
               </div>
             </Button>
