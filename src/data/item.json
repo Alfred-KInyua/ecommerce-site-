@@ -2,19 +2,19 @@
   {
     "id": 1,
     "name": "Toilet Cleaner",
-    "price": 2.55,
+    "price": 500,
     "imgUrl": "./images/ToiletCleaner.jpg"
   },
   {
     "id": 2,
     "name": "Regular Bleach",
-    "price": 2055,
+    "price": 550,
     "imgUrl": "./images/superCleaner.jpg"
   },
   {
     "id": 3,
     "name": "Dish Washer",
-    "price": 2.55,
+    "price": 600,
     "imgUrl": "./images/dish.jpg"
   },
   {
