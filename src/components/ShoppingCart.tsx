@@ -27,6 +27,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
                 return total + (item?.price || 0) * cartItem.quantity;
               }, 0)
             )}
+            <div>Till Number: 916025, Title: Glam</div>
           </div>
         </Stack>
       </Offcanvas.Body>
