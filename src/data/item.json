@@ -1,38 +1,38 @@
 [
   {
     "id": 1,
-    "name": "Mangoes",
-    "price": 10.99,
-    "imgUrl": "./images/mangoes.jpg"
+    "name": "Toilet Cleaner",
+    "price": 2.55,
+    "imgUrl": "./images/ToiletCleaner.jpg"
   },
   {
     "id": 2,
-    "name": "Blueberries",
-    "price": 12.0,
-    "imgUrl": "./images/blueberries.jpg"
+    "name": "Regular Bleach",
+    "price": 2055,
+    "imgUrl": "./images/superCleaner.jpg"
   },
   {
     "id": 3,
-    "name": "Watermelons",
-    "price": 1.05,
-    "imgUrl": "./images/melons.jpg"
+    "name": "Dish Washer",
+    "price": 2.55,
+    "imgUrl": "./images/dish.jpg"
   },
   {
     "id": 4,
-    "name": "Apples",
-    "price": 2.55,
-    "imgUrl": "./images/Apples.jpg"
+    "name": "Anti Hairloss Shampoo",
+    "price": 800,
+    "imgUrl": "./images/raywashShampoo.png"
   },
   {
     "id": 5,
-    "name": "Corn",
-    "price": 2055,
-    "imgUrl": "./images/corn.jpg"
+    "name": "First Aid Formulae",
+    "price": 800.0,
+    "imgUrl": "./images/beauty.jpg"
   },
   {
     "id": 6,
-    "name": "Tomatoes",
-    "price": 2.55,
-    "imgUrl": "./images/tomatoes.jpg"
+    "name": "Hand Sanitizer",
+    "price": 500,
+    "imgUrl": "./images/hand.jpg"
   }
 ]
