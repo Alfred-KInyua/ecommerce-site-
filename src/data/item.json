@@ -1,38 +1,38 @@
 [
   {
     "id": 1,
-    "name": "Toilet Cleaner",
+    "name": "Oranges",
     "price": 500,
-    "imgUrl": "./images/ToiletCleaner.jpg"
+    "imgUrl": "./images/oranges.jpg"
   },
   {
     "id": 2,
-    "name": "Regular Bleach",
+    "name": "Blue berries",
     "price": 550,
-    "imgUrl": "./images/superCleaner.jpg"
+    "imgUrl": "./images/blueberries.jpg"
   },
   {
     "id": 3,
-    "name": "Dish Washer",
+    "name": "Mangoes",
     "price": 600,
-    "imgUrl": "./images/dish.jpg"
+    "imgUrl": "./images/mangoes.jpg"
   },
   {
     "id": 4,
-    "name": "Anti Hairloss Shampoo",
+    "name": "Raspberry",
     "price": 800,
-    "imgUrl": "./images/raywashShampoo.png"
+    "imgUrl": "./images/raspberry.jpg"
   },
   {
     "id": 5,
-    "name": "First Aid Formulae",
+    "name": "Oranges",
     "price": 800.0,
-    "imgUrl": "./images/beauty.jpg"
+    "imgUrl": "./images/oranges.jpg"
   },
   {
     "id": 6,
-    "name": "Hand Sanitizer",
+    "name": "Avocardo",
     "price": 500,
-    "imgUrl": "./images/hand.jpg"
+    "imgUrl": "./images/avocardo.jpg"
   }
 ]

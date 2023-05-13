@@ -1,15 +1,11 @@
 import storeItems from '../data/item.json';
 import { Row, Col } from 'react-bootstrap';
 import { StoreItem } from '../components/StoreItem';
-import { formatCurrency } from '../utility/formatCurrency';
 
 export function Home() {
   return (
     <>
-      <h2>
-        Rawaki Store: Free shipping cost for products worth
-        {formatCurrency(6000)}
-      </h2>
+      <h2>Rawaki Store</h2>
       <Row md={2} xs={1} lg={3} className="g-3">
         {storeItems.map((item) => (
           <Col key={item.id}>
